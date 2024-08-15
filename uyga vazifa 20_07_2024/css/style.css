@@ -1,0 +1,63 @@
+
+.boxes{
+    display: flex;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+img:hover{
+    border: solid red 5px;
+}
+.box1{
+    background-color: rgb(31, 145, 238);
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+}
+.nm{
+    color: white;
+    font-size: 30px;
+}
+.fr{
+    color: black;
+    font-size: 50px;
+    text-decoration: underline red;
+}
+.nm:hover{
+    color: rgb(231, 55, 157);
+}
+.fr:hover{
+    color: yellow;
+}
+th{
+    color: white;
+}
+.box2{
+    background-color: rgb(64, 113, 187);
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+tbody{
+    text-align: justify;
+}
+span:hover{
+    text-decoration: underline red;
+}
+.axa:hover{
+    text-decoration: underline yellow;
+}
+.box3{
+    background-color: aquamarine;
+    font-size: 35px;
+    text-align: center;
+    padding: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* .box3>:hover{
+    text-decoration: underline yellow;
+} */
